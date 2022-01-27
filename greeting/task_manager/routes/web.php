@@ -18,8 +18,20 @@ use Illuminate\Support\Facades\Route;
 Route::prefix('customer')->group(function () {
     Route::get('index', function () {
         //hiển thị danh sách khách hàng
-        echo 'hiển thị danh sách khách hàng';
+        // echo 'hiển thị danh sách khách hàng';
         return view('modules.customer.index');
+    });
+    Route::delete('delete/{id}', function ($id) {
+        return view('modules.customer.delete');
+        // xóa thông tin dữ liệu khách hàng
+    });
+    Route::get('edit/{id}', function ($id) {
+        // hiển thị form chỉnh sửa thông tin khách hàng được chỉnh sửa thông qua PATCH từ form
+        return view('modules.customer.edit');
+    });
+    Route::get('detail/{id}', function ($id) {
+        // hiển thị form chỉnh sửa thông tin khách hàng được chỉnh sửa thông qua PATCH từ form
+        return view('modules.customer.detail');
     });
     Route::get('create', function () {
         //hiển thị foem tạo khách hàng
@@ -30,10 +42,5 @@ Route::prefix('customer')->group(function () {
     Route::get('{id}/show', function () {
         //hiển thị thông tin chi tiết kahchs hành có mã định danh id
     });
-    Route::get('{id}/edit', function () {
-        // hiển thị form chỉnh sửa thông tin khách hàng được chỉnh sửa thông qua PATCH từ form
-    });
-    Route::delete('{id}', function () {
-        // xóa thông tin dữ liệu khách hàng
-    });
+
 });

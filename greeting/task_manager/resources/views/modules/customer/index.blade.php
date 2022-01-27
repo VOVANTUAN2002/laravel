@@ -23,7 +23,7 @@
         <td>01234567890</td>
         <td>email.test@mail.com</td>
         <td>
-            <a href="#">Xem</a> | <a href="#">Sửa</a> | <a href="#">Xóa</a&
+        <a href="detail/1">Xem</a> | <a href="edit/1">Sửa</a> | <a href="detail/1">Xóa</a>
         </td>
     </tr>
     <tr>
@@ -32,7 +32,7 @@
         <td>01234567890</td>
         <td>email.test@mail.com</td>
         <td>
-            <a href="#">Xem</a> | <a href="#">Sửa</a> | <a href="#">Xóa</a>
+        <a href="detail/1">Xem</a> | <a href="edit/1">Sửa</a> | <a href="detail/1">Xóa</a>
         </td>
     </tr>
     <tr>
@@ -41,7 +41,7 @@
         <td>01234567890</td>
         <td>email.test@mail.com</td>
         <td>
-            <a href="#">Xem</a> | <a href="#">Sửa</a> | <a href="#">Xóa</a>
+        <a href="detail/1">Xem</a> | <a href="edit/1">Sửa</a> | <a href="detail/1">Xóa</a>
         </td>
     </tr>
     <tr>
@@ -50,7 +50,7 @@
         <td>01234567890</td>
         <td>email.test@mail.com</td>
         <td>
-            <a href="#">Xem</a> | <a href="#">Sửa</a> | <a href="#">Xóa</a>
+        <a href="detail/1">Xem</a> | <a href="edit/1">Sửa</a> | <a href="detail/1">Xóa</a>
         </td>
     </tr>
     <tr>
@@ -59,7 +59,7 @@
         <td>01234567890</td>
         <td>email.test@mail.com</td>
         <td>
-            <a href="#">Xem</a> | <a href="#">Sửa</a> | <a href="#">Xóa</a>
+        <a href="detail/1">Xem</a> | <a href="edit/1">Sửa</a> | <a href="detail/1">Xóa</a>
         </td>
     </tr>
     </tbody>
